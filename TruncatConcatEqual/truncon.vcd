@@ -1,0 +1,78 @@
+$date
+	Tue Mar 25 02:25:48 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_truncon $end
+$var wire 8 ! outVec [7:0] $end
+$var wire 1 " equal $end
+$var reg 8 # inVec [7:0] $end
+$scope module uut $end
+$var wire 8 $ vec_in [7:0] $end
+$var wire 8 % vec_out [7:0] $end
+$var wire 4 & v1 [3:0] $end
+$var wire 4 ' v0 [3:0] $end
+$var wire 1 " equal $end
+$scope module op1 $end
+$var wire 8 ( vec_in [7:0] $end
+$var wire 4 ) vout1 [3:0] $end
+$var wire 4 * vout0 [3:0] $end
+$upscope $end
+$scope module op2 $end
+$var wire 4 + vout0 [3:0] $end
+$var wire 4 , vout1 [3:0] $end
+$var wire 8 - vec_out [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11001100 -
+b1100 ,
+b1100 +
+b1100 *
+b1100 )
+b11001100 (
+b1100 '
+b1100 &
+b11001100 %
+b11001100 $
+b11001100 #
+1"
+b11001100 !
+$end
+#30000
+b1010 '
+b1010 *
+b1010 +
+b10101010 !
+b10101010 %
+b10101010 -
+b1010 &
+b1010 )
+b1010 ,
+b10101010 #
+b10101010 $
+b10101010 (
+#60000
+b101 '
+b101 *
+b101 +
+b1010101 !
+b1010101 %
+b1010101 -
+b101 &
+b101 )
+b101 ,
+b1010101 #
+b1010101 $
+b1010101 (
+#90000

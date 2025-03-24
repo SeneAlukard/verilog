@@ -1,0 +1,47 @@
+$date
+	Tue Mar 25 02:13:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_coPrime $end
+$var wire 1 ! is_coprime $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module uut $end
+$var wire 4 $ in1 [3:0] $end
+$var wire 4 % in2 [3:0] $end
+$var wire 1 ! is_coprime $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b11 %
+b100 $
+b11 #
+b100 "
+1!
+$end
+#10000
+0!
+b11 "
+b11 $
+#20000
+1!
+b10 "
+b10 $
+#30000
+b1 "
+b1 $
+#40000
+0!
+b0 "
+b0 $
+#50000
